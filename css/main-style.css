@@ -11,7 +11,7 @@ h1{
 
 h2{
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 p{
@@ -48,3 +48,12 @@ p{
     padding: 90px;
 }
 
+.about-me{
+    background-image: url(/food-network/images/shapes/7.png);   
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+
+#person-image{
+    width: 51%;
+}
