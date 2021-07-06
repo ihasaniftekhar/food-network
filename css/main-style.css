@@ -15,7 +15,7 @@ h2{
 }
 
 p{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .flexible{
@@ -69,4 +69,36 @@ p{
 
 .recipie-box-main{
     padding: 70px;
+}
+
+.read-more-btn{
+    margin-bottom: 15px;
+}
+
+.read-more-btn a{
+    text-decoration: none;
+    background-color: black;
+    padding:15px 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.followers{
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 10px;
+}
+
+.p-followers{
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.109);
+    border-radius: 2em;
+    margin:auto;
+    width: 85%;
+    height: 40vh;
+    text-align: center;
+}
+
+.followers-box{
+    padding: 5%;
+    margin: auto;
 }
