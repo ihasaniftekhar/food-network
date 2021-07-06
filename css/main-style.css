@@ -68,7 +68,8 @@ p{
 }
 
 .recipie-box-main{
-    padding: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .read-more-btn{
@@ -83,22 +84,68 @@ p{
     margin-bottom: 15px;
 }
 
+.follower-num{
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.109);
+    border-radius: 2em;
+    margin:40px auto;
+    width: 85%;
+    height: 40vh;
+    text-align: center;
+    color: black;
+}
+
 .followers{
     font-size: 40px;
     font-weight: bolder;
     line-height: 10px;
 }
 
-.p-followers{
-    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.109);
-    border-radius: 2em;
-    margin:auto;
-    width: 85%;
-    height: 40vh;
-    text-align: center;
-}
-
 .followers-box{
     padding: 5%;
     margin: auto;
 }
+
+footer{
+    height: 35vh;
+    background-color: #0b0d17;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    line-height: 50px;
+}
+
+hr{
+    width: 30%;
+    height: 2px;
+    background-color: black;
+}
+.contact-box-main{
+    width: 85%;
+    height: 70vh;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.089);
+    margin: 90px auto;
+    padding: 10px 50px;
+    border-radius: 2em;
+}
+
+.contact-box{
+    padding-left: 50px;
+    margin: auto;
+       
+}
+
+input{
+    padding: 10px 20px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+label{
+    line-height: 30px;
+}
+
+textarea{
+    padding: 20px;
+}
+
